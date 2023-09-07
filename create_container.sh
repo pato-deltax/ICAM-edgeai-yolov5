@@ -1,6 +1,6 @@
 sudo xhost +si:localuser:root
 sudo docker run --gpus all -it \
-		--name yolov7 \
+		--name yolov5 \
 		--network host \
 		-e DISPLAY=$DISPLAY \
 		-v /tmp/.X11-unix/:/tmp/.X11-unix \
